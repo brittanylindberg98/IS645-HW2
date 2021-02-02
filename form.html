@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Link to use the external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  
+<head>
+  <title>Brittany's Moving Service-Our Services</title>
+ 
+</head>
+<body>
+   <!--A link to the Introductory Page (use relative link)-->
+   <p><a href=index.html >Back to Brittany's Moving Service </a> </a></p>
+   <!--Headings size 2 -->
+   <h2>Sign Up</h2>
+   <!--Heading size 4-->
+   <h4>Input User Information</h4>
+   
+   <form>
+    <!--Text Input -->
+      <label>Username:</label><Br>
+      <input type="text" id="uname" name="uname"><br>
+    <!--Password input-->
+    <label>Password:</label><Br>
+      <input type="password" id="Password" name="password"><br>
+    <!--Radio buttons (at least 3)-->
+    <input type="radio" id="Credit" name="Credit" value="Credit">
+    <label for="Credit">Credit</label><br>
+    <input type="radio" id="PayPal" name="PayPal" value="PayPal">
+    <label for="PayPal">PayPal</label><br>
+    <input type="radio" id="Apple Pay" name="Apple Pay" value="Apple Pay">
+    <label for="Apple Pay">Apple Pay</label><br>
+    <!--Checkbox (at least 2)-->
+    <form>
+      <input type="checkbox" id="Include Boxes" name="Include Boxes" value="Include Boxes">
+      <label for="Include Boxes"> Add Boxes</label><br>
+      <input type="checkbox" id="Add Packing Labels" name="Packing Labels" value="Packing Labels">
+      <label for="Packing Labels"> Add Packing Labels</label><br>
+    <!--A multiple select box (at least 4 options)-->
+    <p><strong>Select your Current Location </strong></p> <select multiple size="4"> <option value=>Carson, CA</option> <option value=>Torrance, CA</option> <option value=>Long Beach, CA</option> <option value="Pick Up">Drive to Brittany's Moving Service</option></select>
+
+    <!--Date input (HTML 5 validation)-->
+    <p>Select Moving Date</p>
+    <input type="date" name="Date" placeholder="select Today's Date" >
+    <!--Submit button-->
+    <input type="submit" value="Submit">
+   </form>
+   
+</body>
+</html>
